@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "718969368616",
+    "firebase_url": "https://bit-jaipur-default-rtdb.firebaseio.com",
+    "project_id": "bit-jaipur",
+    "storage_bucket": "bit-jaipur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718969368616:android:473ef8c7fe04e12ed9c51d",
+        "android_client_info": {
+          "package_name": "com.example.admincollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718969368616-chvb0a224g32lmc4ar8f2genj4bvv87j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_oIais__QrXseFruakyyC3RCADDqP8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718969368616-chvb0a224g32lmc4ar8f2genj4bvv87j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718969368616:android:8c5110a4eada3927d9c51d",
+        "android_client_info": {
+          "package_name": "com.example.bitjaipur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718969368616-chvb0a224g32lmc4ar8f2genj4bvv87j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_oIais__QrXseFruakyyC3RCADDqP8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718969368616-chvb0a224g32lmc4ar8f2genj4bvv87j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

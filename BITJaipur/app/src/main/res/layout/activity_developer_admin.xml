@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Developer_Admin"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@string/bold"
+        android:text="Admin"
+        android:textColor="@color/textColoor"
+        android:textSize="@dimen/title_size" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/adminRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+android:layout_gravity="center_horizontal"
+            android:id="@+id/progressBar"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@string/bold"
+        android:text="Developer"
+        android:textColor="@color/textColoor"
+        android:textSize="@dimen/title_size" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dev_photo"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="12dp">
+
+            <TextView
+                android:id="@+id/teacherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abhijeet Chaudhuri"
+                android:textStyle="bold"
+                android:textColor="@color/textColoor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/teacherEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="abhijeetchaudhuri7@gmail.com"
+                android:textStyle="bold"
+                android:textColor="@color/textColoor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/teacherPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CSE 2019-2023"
+                android:textStyle="bold"
+                android:textColor="@color/textColoor"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    </LinearLayout>

@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BIT Jaipur</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/fredokabold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/fredokamedium</string>
+    <string name="medium" tools:ignore="ReferenceType">@font/fredokaregular</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/fredokalight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="contact">BIT Mesra, Jaipur Campus
+27, Malviya Industrial Area, Jaipur 302017
+    </string>
+    <string name="contact1">Phone: 0141- 4019798 / 4019819</string>
+    <string name="contact2">Fax: 2751601</string>
+    <string name="contact3">Email: bitjaipur@bitmesra.ac.in</string>
+    <string-array name="theme">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+    <string name="about_college">Birla Institute of Technology, Jaipur Campus is an integral part of  Birla Institute of Technology , Mesra (Ranchi) , it  was established in 1995.
+        The focus of the institute is to provide quality education in Engineering, Applied Sciences and Management with  technology and professional exposure through innovative programmes and practices.
+        With excellent performance, progressive mind set  and good will earned, it is today one of the leading  institutes in the field of Engineering, Applied Sciences and Management.
+        The campus is well located in the southern-east part of the city which is an  upcoming hub of  important  installations and development activities in  residential, institutional and business areas.
+        The campus is within 5-7  km  reach  from the airport ,  railway station and bus stand.
+
+    </string>
+</resources>
